@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let userName = prompt("Tên mi?");
+
+    if (userName == 'Tau') {
+        let pass = prompt('mật khẩu của mi là chi?');
+        if (pass == 'khongbiet') {
+            alert('Chào mi');
+        }
+        else if (pass == null) {
+            alert('ken xồ');
+        }
+        else {
+            alert ('điền cái gì đấy');
+        }
+    } else if (userName == null) {
+        alert('Cut');
+    } else {
+        alert("Tau không bít mi");
+    }
+</script>
+</body>
+</html>
